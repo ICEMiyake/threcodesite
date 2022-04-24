@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+#header-img{
+  height: 150px;
+  width: 125px;
+}
+
+#maldiverna{
+  display: inline-block;
+  width: 900px;
+}
+
+#japan{
+  display: inline-block;
+  width: 900px;
+}
+
+#frankrike{
+  display: inline-block;
+  width: 900px;
+}
+
+.nav-bar{
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #maldiverna, #japan, #frankrike{
+    width: 500px;
+    display: block;
+  }
+}
